@@ -1,4 +1,4 @@
-#Chall1 - Forensics
+# Chall1 - Forensics
  
 ### Gravity 300 Pts
 
@@ -16,10 +16,11 @@ Node but not js !!!
 
 2) Rename isaac.jpg => isaac.zip
 
-3) Decode Call_Newton.wav via a DTMF online Decoder, Example : 
-http://www.dialabc.com/sound/detect/index.html
+3) Decode Call_Newton.wav via a DTMF online Decoder,
 
-598#AB998CD1AB01C
+_Example_ : http://www.dialabc.com/sound/detect/index.html
+
+=> 598#AB998CD1AB01C
 
 4) Use that password to unzip isaac.zip
 
@@ -39,8 +40,10 @@ You must then build a binary tree using their names
 
 8) Then Adjust it using the Format :
 
-      ___ __ ___ __ ___ __ ___ __ __ ___ __ __ ___ __ __ ___
-      121 48 117 95 103 48 116 95 49 116 95 99 104 52 77 112
+```
+`___ __ ___ __ ___ __ ___ __ __ ___ __ __ ___ __ __ ___`
+'121 48 117 95 103 48 116 95 49 116 95 99 104 52 77 112'
+```
 
 9)  Final step, decode it from Decimal to Ascii :
 
@@ -49,8 +52,3 @@ You must then build a binary tree using their names
 <blockquote>
 y0u_g0t_1t_ch4Mp
 </blockquote>
-
-
-
-
-

@@ -1,4 +1,4 @@
-#Chall4 - Forensics
+# Chall4 - Forensics
  
 ### Golden 800 Pts
 
@@ -20,7 +20,7 @@ The hardest part of this challenge is to think outside the box.. and not to limi
 
 
 4) Using photorec, you'll be able to recover a few files that were deleted and not saved in the system file index !
-Keeping in mind the hint ' Find the gold ', you'll find a picture of 'A Golden Book' !
+Keeping in mind the hint ' Find the gold ', you'll find a picture of '**A Golden Book**' !
 
 5) Study its meta-data using exiftool to find 
 _GPS Position_: 36 deg 48' 55.10", 10 deg 3' 24.22"

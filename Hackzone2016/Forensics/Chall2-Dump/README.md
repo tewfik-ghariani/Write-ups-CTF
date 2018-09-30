@@ -1,4 +1,4 @@
-#Chall2 - Forensics
+# Chall2 - Forensics
  
 ### Dump 350 Pts
 
@@ -16,7 +16,9 @@
 
 3) First step is to find out the operating system that was running on the computer from which we got the memory dump!
 
+```
 volatility -f Dump.raw imageinfo
+```
 
 => Win2008R2SP1x64
 
@@ -53,6 +55,7 @@ Th4nks_f0r_c0m1ng
 ---
 
 See you next year !
-#######Hackzone2017
+
+####### Hackzone2017
 
 

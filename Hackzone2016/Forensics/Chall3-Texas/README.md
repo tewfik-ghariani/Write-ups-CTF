@@ -1,4 +1,4 @@
-#Chall3 - Forensics
+# Chall3 - Forensics
  
 ### Texas 750 Pts
 
@@ -31,7 +31,9 @@ Thumbnail Image                 : (Binary data 48324 bytes, use -b option to ext
 
 6) Extract it binary data :
  
-exiftool Poker\_Face -b > another\_picture
+ ```
+exiftool Poker_Face -b > another_picture
+```
 
 7) Using exiftool on 'another_picture'  you'll notice : 
 Warning                         : Skipped unknown 227 byte header
@@ -39,8 +41,11 @@ Warning                         : Skipped unknown 227 byte header
 You must understand that you'll have to delete some extra header
 
 8) Once that done, you'll get a troll face that have some binary data in it as well
-=>>>
-exiftool troll\_face -b > last\_picture
+
+```
+exiftool troll_face -b > last_picture
+```
+
 
 9) You can repeat the same proccess on the last_picture (delete its extra header) to get a 'Success' picture, but that's optional
 What we need here is to notice the comment among the 'last\_picture''s meta-data 
