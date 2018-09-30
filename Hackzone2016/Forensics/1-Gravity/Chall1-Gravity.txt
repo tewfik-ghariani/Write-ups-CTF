@@ -1,0 +1,52 @@
+                              Chall1 - Forensics
+                              * Gravity * 300 Pts
+
+Hint : 
+Node but not js !!!
+
+
+
+Files :
+ _Call_Newton.wav
+ _isaac.jpg
+
+
+
+1) Rename isaac.jpg => isaac.zip
+
+2) Decode Call_Newton.wav via a DTMF online Decoder, Example : 
+http://www.dialabc.com/sound/detect/index.html
+
+598#AB998CD1AB01C
+
+3) Use that password to unzip isaac.zip
+
+4) Files : 
+_ Flag.tar.bz2
+_ Format
+
+5) tar xjvf Flag.tar.bz2
+=> A bunch of empty files
+
+You must then build a binary tree using their names 
+
+6) Considering the hint, you should understand that you'll be using those nodes to get the flag. So, simply get the leafs :
+121481179510348116954911695991045277112
+
+
+7) Then Adjust it using the Format :
+___ __ ___ __ ___ __ ___ __ __ ___ __ __ ___ __ __ ___
+121 48 117 95 103 48 116 95 49 116 95 99 104 52 77 112
+
+8)  Final step, decode it from Decimal to Ascii :
+
+=> And the flag is : 
+ y0u_g0t_1t_ch4Mp
+
+
+
+
+
+
+
+

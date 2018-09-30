@@ -1,0 +1,53 @@
+                              Chall4 - Forensics
+                              * Dump * 350 Pts
+
+No Hint 
+
+
+
+Files :
+ _ Dump.raw.tar.bz2
+
+
+
+0)  tar xjfv Dump.raw.tar.bz2
+
+
+1) This is a memory dump, you must understand that you'll be using volatility !
+
+2) First step is to find out the operation system that was running on the computer from which we got the memory dump!
+
+volatility -f Dump.raw imageinfo
+
+=>> Win2008R2SP1x64
+
+
+
+3) First reflex is to check the list of process which were running! 
+
+volatility -f Dump.raw pslist --profile=Win2008R2SP1x64
+
+4) Obviously, the process 'flag.'  will catch your eyes !
+
+5) Execute this !
+
+ volatility -f  Dump.raw  --profile=Win2008R2SP1x64 procexedump -p 1804 --dump-dir .
+
+
+6) execute it or simply use string 
+
+===> The Flag Is Th4nks_f0r_c0m1ng
+
+
+
+See you next year !
+#Hackzone2017
+
+
+
+
+
+
+
+
+
