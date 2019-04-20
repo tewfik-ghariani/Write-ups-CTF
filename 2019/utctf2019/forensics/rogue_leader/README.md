@@ -4,7 +4,7 @@
 ### Solved : #
 
 ###### Files :
-capture.pcapng
+[capture.pcapng](capture.pcapng)
 
 ######  Hints
 None
@@ -183,7 +183,7 @@ Now this is really interesting. This appears to be a key logger capture leftover
 
 Ref : https://medium.com/@ali.bawazeeer/kaizen-ctf-2018-reverse-engineer-usb-keystrok-from-pcap-file-2412351679f4
 
-We can use the _map_keystrokestool.py_ script
+We can use the [_map_keystrokestool.py_](map_keystrokestool.py) script
 
 ```
 
@@ -267,7 +267,7 @@ Got the following picture!
 
 ![alt flag](flag.png)
 
-Now we just need to retrieve the LSB from the image ( Ref : https://github.com/Aqcurate/lsb-steganography )
+Now we just need to retrieve the LSB from the image. Used quickly [steglsb.py](https://github.com/Aqcurate/lsb-steganography/blob/master/steglsb.py)
 
 ```
 $ python3 steglsb.py -d flag.png 1 flag_1LSBs.png
@@ -285,6 +285,6 @@ PS : Unfortunately, I faced some issues with the uppercase/lowercase choice and 
 
 ## Flag
 
-utflag{t3x45_1s_my_f4v0r1te_c0untry}
+utflag{t3x45\_1s\_my\_f4v0r1te\_c0untry}
 
 

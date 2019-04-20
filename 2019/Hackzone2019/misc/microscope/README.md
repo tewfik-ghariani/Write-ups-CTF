@@ -26,7 +26,7 @@ After printifying the output, decoded to to ascii
 ```
 sed 's/#//g' colors.txt  | tr -d [:space:] | xxd -r -p > flag.gif
 ```
-Got a gif file containing multiple QR codes images.
+Got a gif file containing multiple QR code images.
 
 ![alt flag](flag.gif)
 
